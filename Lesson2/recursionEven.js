@@ -9,14 +9,22 @@
 // For any other number N, its evenness is the same as N - 2.
 
 // Define a recursive function isEven corresponding to this description. 
-// The function should accept a single parameter (a positive, whole number) and return a Boolean.
+// The function should accept a single parameter (apositive, whole number) and return a Boolean.
 
  function isEven(a){
+  
     if(a == 1){
-    return 1;}
-    else {
-        return 0;}
+        console.log ("Odd")
+         return 1;
+    }
+    else if(a == 0) {
+        console.log("Even")
+        return 1;
+        }
+        else{
+        return isEven(a-2);
+        }
 }
 
-isEven(1)
+isEven(-1)
 
