@@ -4,21 +4,21 @@
 
 
 
-// function range(start,end){
-//     let numArray = [];
-//     for( i=start; i <= end; i++){
-//         if (i>=start && i <= end){
-//             numArray.push(i);
+function range(start,end){
+    let numArray = [];
+    for( i=start; i <= end; i++){
+        if (i>=start && i <= end){
+            numArray.push(i);
             
-//         }
+        }
        
 
-//     }
-//     return numArray;
+    }
+    return numArray;
     
-// }
+}
 
-// console.log(range(1,10))
+console.log(range(1,10))
 
 
 
