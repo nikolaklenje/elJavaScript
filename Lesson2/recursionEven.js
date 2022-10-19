@@ -28,3 +28,5 @@
 
 isEven(-1)
 
+// It is perfectly fine for a function to call itself,
+// as long as it doesn't doing so often to overflows the stack.
