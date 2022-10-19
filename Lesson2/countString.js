@@ -25,8 +25,7 @@ console.log(countString("hello world"))
 
 // Next, write a function called countChar that behaves like countBs,
 //  except it takes a second argument that indicates the character that is to be counted 
-//  (rather than counting only uppercase “B” characters). Rewrite countBs to make use of this new function.
-
+//  (rather than counting only uppercase “B” characters). Rewrite countBs to make use of this new function
 function countChar(string, chr){
     let newString = "";
   for( i=0; i < string.length; i++){
